@@ -10,13 +10,13 @@ L'objectif de ce projet est de proposer une expérience de navigation agréable,
 
 ## Fonctionnalités
 
-- 🏠 **Page d'accueil** : présentation de la boutique et mise en avant des produits.
-- 👕 **Catalogue de produits** : découverte des vêtements, chaussures et autres articles disponibles.
-- 🔎 **Détails des produits** : consultation des informations relatives aux articles.
-- 🛒 **Panier** : interface dédiée à la gestion des articles sélectionnés.
-- 📰 **Blog** : espace consacré aux actualités et aux contenus liés à la boutique.
-- 📞 **Contact** : page permettant aux visiteurs de retrouver les informations de contact.
-- ℹ️ **À propos** : présentation de la boutique.
+-  **Page d'accueil** : présentation de la boutique et mise en avant des produits.
+-  **Catalogue de produits** : découverte des vêtements, chaussures et autres articles disponibles.
+-  **Détails des produits** : consultation des informations relatives aux articles.
+-  **Panier** : interface dédiée à la gestion des articles sélectionnés.
+-  **Blog** : espace consacré aux actualités et aux contenus liés à la boutique.
+-  **Contact** : page permettant aux visiteurs de retrouver les informations de contact.
+-  **À propos** : présentation de la boutique.
 
 ## Technologies utilisées
 
@@ -31,7 +31,7 @@ Le projet est organisé autour de plusieurs pages HTML, de feuilles de style CSS
 
 ## Accéder au projet
 
-Le site est accessible en ligne via GitHub Pages (lien à ajouter après le déploiement).
+Le site est accessible en ligne via GitHub Pages.
 
 ## Objectif pédagogique
 
