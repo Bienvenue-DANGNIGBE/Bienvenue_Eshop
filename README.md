@@ -1,6 +1,6 @@
 # Bienvenue_Eshop
 
-# eShop – Boutique en ligne
+# eShop - Boutique en ligne
 
 ## Présentation du projet
 
