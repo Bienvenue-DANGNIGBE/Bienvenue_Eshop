@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: wr;
+    src: url("police/WrathStyles.ttf");
+}
+
+@font-face {
+    font-family: br;
+    src: url("police/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+}
+
+#img_debut {
+    background-image: url("img/more3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+#img_debut .contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(26, 238, 238,0.4); */
+    background-color: rgba(24, 27, 27, 0.5);
+    text-align: center;
+}
+
+#img_debut .contain h1 {
+    font-size: 50px;
+    font-family: br;
+    color: rgb(238, 238, 238);
+    letter-spacing: 3px;
+}
+
+#img_debut .contain h2 {
+    font-family: wr;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#move {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#move button {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: rgba(11, 248, 11, 0.7);
+    border: none;
+    border-radius: 4px;
+}
+
+#move button a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#move button i {
+    font-size: 30px;
+}
+
+
+/*     simgle product detail     */
+
+marquee {
+    margin-top: 30px;
+    background-color: #ccc;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#prodetails {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#prodetails .single_pro_img {
+    width: 40%;
+    margin-right: 50px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.2);
+    margin-bottom: 0px;
+}
+
+#prodetails .single_pro_img #MainImg {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.5);
+    background-color: #f2f2f2;
+}
+
+#prodetails .single_pro_img .small_img_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+#prodetails .single_pro_img .small_img_group .small_img_col {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.4);
+    background-color: #f2f2f2;
+    margin-right: 10px;
+}
+
+#prodetails .single_pro_img .small_img_group .small_img_col img {
+    width: 120px;
+    height: 120px;
+}
+
+#prodetails .single_pro_detail {
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.2);
+}
+
+#prodetails .single_pro_detail h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single_pro_detail h4 {
+    font-size: 22px;
+    font-family: cursive;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#prodetails .single_pro_detail h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#prodetails .single_pro_detail div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+#prodetails .single_pro_detail div input {
+    width: 60px;
+    height: 50px;
+    margin-right: 30px;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#prodetails .single_pro_detail div button {
+    padding: 5px;
+    background-color: rgba(45, 218, 45, 0.8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prodetails .single_pro_detail div button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#prodetails .single_pro_detail div button:hover {
+    background-color: rgba(11, 248, 11, 0.6);
+}
+
+#prodetails .single_pro_detail span {
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media all and (max-width:800px) {
+    #img_debut {
+        width: 100%;
+        height: 210px;
+        margin-bottom: 40px;
+    }
+    #img_debut .contain h1 {
+        font-size: 40px;
+        font-family: br;
+        color: rgb(238, 238, 238);
+        letter-spacing: 3px;
+    }
+    #img_debut .contain h2 {
+        font-family: wr;
+        letter-spacing: 2px;
+        font-size: 25px;
+    }
+    #prodetails {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    #prodetails .single_pro_img {
+        width: 100%;
+        box-shadow: 0 0 15px rgba(19, 19, 19, 0.2);
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+    #prodetails .single_pro_detail {
+        width: 100%;
+        padding: 20px;
+    }
+    #prodetails .single_pro_img .small_img_group .small_img_col {
+        margin-right: 6px;
+    }
+    #prodetails .single_pro_img .small_img_group .small_img_col img {
+        width: 100px;
+        height: 100px;
+    }
+}

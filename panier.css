@@ -1,0 +1,252 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #recapitulatif {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+    }
+    
+    #recapitulatif .table1 {
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-shadow: 0 0 12px rgba(46, 45, 45, 0.7);
+        margin-bottom: 50px;
+    }
+    
+    #recapitulatif .table1 table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        white-space: nowrap;
+    }
+    
+    #recapitulatif .table1 table img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(1) {
+        width: 150px;
+        text-align: center;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(2) {
+        width: 250px;
+        text-align: center;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(3) {
+        width: 150px;
+        text-align: center;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(4),
+    #recapitulatif .table1 table td:nth-child(5) {
+        width: 150px;
+        text-align: center;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(4) input {
+        width: 70px;
+        padding: 8px;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(6) {
+        width: 100px;
+        text-align: center;
+    }
+    
+    #recapitulatif .table1 table td:nth-child(6) i {
+        font-size: 25px;
+        color: red;
+    }
+    
+    #recapitulatif .table1 table thead {
+        border: 1px solid #b8beb7;
+        border-right: none;
+        height: 35px;
+    }
+    
+    #recapitulatif .table1 table thead td {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    #recapitulatif .table1 table tbody tr td {
+        padding-top: 15px;
+    }
+    
+    #recapitulatif .table1 table tbody td {
+        font-size: 15px;
+    }
+    
+    #recapitulatif .table2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    #recapitulatif .table2 .coupon {
+        padding: 15px;
+        width: 600px;
+        box-shadow: 0 0 8px rgba(46, 45, 45, 0.4);
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+    
+    #recapitulatif .table2 .coupon h3 {
+        font-family: cursive;
+        margin-bottom: 10px;
+    }
+    
+    #recapitulatif .table2 .coupon div {
+        display: flex;
+    }
+    
+    #recapitulatif .table2 .coupon div input {
+        padding: 10px;
+        padding-left: 10px;
+        width: 80%;
+        outline: none;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border: 1px solid rgba(31, 30, 30, 0.5);
+        height: 50px;
+    }
+    
+    #recapitulatif .table2 .coupon div button {
+        padding: 10px;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border: none;
+        background-color: rgb(15, 207, 98);
+        color: white;
+        font-family: cursive;
+        width: 20%;
+        font-size: 18px;
+        height: 50px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    #recapitulatif .table2 .all_total {
+        width: 600px;
+        padding: 15px;
+        box-shadow: 0 0 8px rgba(46, 45, 45, 0.4);
+        margin-bottom: 40px;
+    }
+    
+    #recapitulatif .table2 .all_total h3 {
+        font-family: cursive;
+        margin-bottom: 15px;
+    }
+    
+    #recapitulatif .table2 .all_total table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid rgba(31, 30, 30, 0.5);
+        table-layout: fixed;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+    
+    #recapitulatif .table2 .all_total table td {
+        border: 1px solid rgba(31, 30, 30, 0.5);
+        padding: 15px;
+        font-size: 20px;
+        width: 50%;
+    }
+    
+    #recapitulatif .table2 .all_total table tr:nth-child(3) {
+        font-weight: bold;
+    }
+    
+    #recapitulatif .table2 .all_total input {
+        padding: 12px;
+        font-size: 18px;
+        font-family: cursive;
+        background-color: rgb(15, 207, 98);
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    @media all and (max-width:915px) {
+        #recapitulatif {
+            width: 98%;
+        }
+        #recapitulatif .table1 {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+        #recapitulatif .table1 table img {
+            width: 60px;
+            height: 60px;
+        }
+        #recapitulatif .table1 {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            overflow-x: scroll;
+        }
+        #recapitulatif .table1 table {
+            width: 100%;
+            justify-content: flex-start;
+        }
+        #recapitulatif .table2 {
+            flex-direction: column;
+        }
+        #recapitulatif .table2 .coupon {
+            width: 100%;
+            margin-right: 0px;
+        }
+        #recapitulatif .table2 .coupon div input {
+            width: 80%;
+        }
+        #recapitulatif .table2 .coupon div button {
+            width: 20%;
+        }
+        #recapitulatif .table2 .all_total {
+            width: 100%;
+        }
+    }
+    
+    @media all and (max-width:400px) {
+        #recapitulatif .table2 .all_total {
+            overflow-x: scroll;
+        }
+        #recapitulatif .table2 .all_total table td {
+            padding: 10px;
+            font-size: 16px;
+            padding-right: 30px;
+        }
+        #recapitulatif .table2 .all_total input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #recapitulatif .table2 .coupon div input {
+            width: 75%;
+        }
+        #recapitulatif .table2 .coupon div button {
+            width: 25%;
+        }
+        #recapitulatif .table2 .coupon div button {
+            padding: 10px;
+            font-size: 16px;
+        }
+    }

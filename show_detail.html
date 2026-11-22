@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop page</title>
+    <link rel="stylesheet" href="link_site.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.8.3/bootstrap-icons.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+    <section class="navigation">
+        <legend>
+            <img src="icone/slack.svg" alt="img1">
+            <p>ZaGaLo_eShop</p>
+            <img src="icone/slack.svg" alt="img2">
+        </legend>
+
+        <div class="icone_responsive">
+            <div class="ic_shop">
+                <a href="panier.html"><img src="icone/cart4.svg" alt="img3"></a>
+                <span>0</span>
+            </div>
+            <div class="menu_responsive">
+                <img src="icone/grid.svg" alt="">
+            </div>
+        </div>
+
+        <ul>
+            <img src="icone/x.svg" alt="img3" class="close_nav">
+            <div class="ic_shop">
+                <a href="panier.html"><img src="icone/cart4.svg" alt="img3"></a>
+                <span>0</span>
+            </div>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+
+    <marquee loop="-1" scrollamount="3" width="100%">Cliquez sur les petites images pour visualiser la grande taille</marquee>
+
+    <section id="prodetails" class="section_p1">
+        <div class="single_pro_img">
+            <img src="img/pull-over1.png" alt="image" width="100%" id="MainImg">
+
+            <div class="small_img_group">
+                <div class="small_img_col">
+                    <img src="img/pull-over1.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over2.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over10.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over4.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over5.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over6.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over7.png" alt="image" width="100%" class="small_img">
+                </div>
+                <div class="small_img_col">
+                    <img src="img/pull-over8.png" alt="image" width="100%" class="small_img">
+                </div>
+            </div>
+        </div>
+
+        <div class="single_pro_detail">
+            <h6>Home / Pull-over</h6>
+            <h4>Men's fashion Pull-over</h4>
+            <h3>8.00€</h3>
+            <div>
+                <input type="number" min="0" value="1">
+                <button><a href="#">Ajouter au panier</a></button>
+            </div>
+            <h4>Details du produit</h4>
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit. Esse at sapiente accusantium perferendis eligendi
+                  minima omnis ad quas, cupiditate nostrum totam adipisci 
+                  laborum. Earum, sapiente explicabo ullam iure tenetur 
+                  reiciendis.
+            </span>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="news" class="section_p1 section_m1">
+        <div class="text">
+            <h2>Sign Up for Newsletters</h2>
+            <h4>Vous recevrez un E-mail pour de <span>nouvelles offres</span></h4>
+        </div>
+        <div class="new_input">
+            <input type="text" placeholder="Your E-mail...">
+            <div>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section_p1">
+        <div class="col1">
+            <div class="col1_1">
+                <legend>ZaGaLo_eShop</legend>
+                <p class="p1">Contact</p>
+                <p class="p2"><span>Adresse :</span> Parakou/Titirou</p>
+                <p class="p3"><span>Phone📞:</span> +229 65510144</p>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+
+            <div class="follow">
+                <legend>Follow Us</legend>
+                <span>Facebook</span>
+                <span>WhatsApp</span>
+                <span>E-mail</span>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100074256824674" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://wa.me/62689166" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    <a href="mailto:bdangnigbe@gmail.com" title="bdangnigbe@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mymail">
+            <span>bdangnigbe@gmail.com</span>
+        </div>
+
+    </footer>
+
+
+    <script>
+        let MainImg = document.getElementById("MainImg");
+        let small_img = document.getElementsByClassName("small_img");
+
+        small_img[0].onclick = function() {
+            MainImg.src = small_img[0].src;
+        }
+        small_img[1].onclick = function() {
+            MainImg.src = small_img[1].src;
+        }
+        small_img[2].onclick = function() {
+            MainImg.src = small_img[2].src;
+        }
+        small_img[3].onclick = function() {
+            MainImg.src = small_img[3].src;
+        }
+        small_img[4].onclick = function() {
+            MainImg.src = small_img[4].src;
+        }
+        small_img[5].onclick = function() {
+            MainImg.src = small_img[5].src;
+        }
+        small_img[6].onclick = function() {
+            MainImg.src = small_img[6].src;
+        }
+        small_img[7].onclick = function() {
+            MainImg.src = small_img[7].src;
+        }
+    </script>
+
+    <script src="eShop.js"></script>
+</body>
+
+</html>

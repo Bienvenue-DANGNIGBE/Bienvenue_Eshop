@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#img_debut {
+    background-image: url("img/slider2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+#infos1_maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#infos1_maps .infos1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 30px;
+    margin-right: 40px;
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.3);
+}
+
+#infos1_maps .maps {
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(70, 45, 45, 0.3);
+}
+
+#infos1_maps .infos1 h1 {
+    font-family: br;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+}
+
+#infos1_maps .infos1 h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#infos1_maps .infos1 .infos1_row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#infos1_maps .infos1 .infos1_row i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#infos1_maps .infos1 .infos1_row p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-style: italic;
+}
+
+#infos1_maps .maps img {
+    width: 100%;
+}
+
+#sendMessage_profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+#sendMessage_profil .sendMessage {
+    width: 60%;
+    box-shadow: 0 0 15px rgba(70, 45, 45, 0.3);
+    padding: 20px;
+    margin-right: 50px;
+}
+
+#sendMessage_profil .sendMessage .row {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+#sendMessage_profil .sendMessage legend {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: br;
+    letter-spacing: 3px;
+}
+
+#sendMessage_profil .sendMessage .row input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(31, 30, 30, 0.5);
+}
+
+#sendMessage_profil .sendMessage .row.file input {
+    border: none;
+    font-style: italic;
+}
+
+#sendMessage_profil .sendMessage .row textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(31, 30, 30, 0.5);
+}
+
+#sendMessage_profil .sendMessage .row.file input {
+    font-size: 15px;
+}
+
+#sendMessage_profil .sendMessage .row input::placeholder {
+    font-family: inherit;
+    font-style: italic;
+}
+
+#sendMessage_profil .sendMessage .row textarea::placeholder {
+    font-family: inherit;
+    font-style: italic;
+}
+
+#sendMessage_profil .sendMessage .submit {
+    width: 100%;
+}
+
+#sendMessage_profil .sendMessage .submit input {
+    padding: 10px;
+    font-size: 17px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(20, 145, 145);
+    border: none;
+    color: white;
+    font-style: italic;
+}
+
+#sendMessage_profil .profil {
+    width: 30%;
+    margin-top: -230px;
+    box-shadow: 0 0 15px rgba(70, 45, 45, 0.3);
+    padding: 20px;
+}
+
+#sendMessage_profil .profil img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #413e3e75;
+    padding: 5px;
+}
+
+#sendMessage_profil .profil .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width:800px) {
+    #infos1_maps {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        padding: 10px;
+    }
+    #infos1_maps .infos1 {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        margin-right: 0px;
+        padding: 20px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+    #infos1_maps .infos1 h1 {
+        font-size: 27px;
+    }
+    #infos1_maps .infos1 h4 {
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    #infos1_maps .maps {
+        width: 98%;
+    }
+    #infos1_maps .infos1 .infos1_row i {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    #infos1_maps .infos1 .infos1_row p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    #sendMessage_profil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    #sendMessage_profil .sendMessage {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #sendMessage_profil .sendMessage .row {
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    #sendMessage_profil .sendMessage .submit input {
+        width: 100px;
+    }
+    #sendMessage_profil .profil {
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px;
+    }
+}

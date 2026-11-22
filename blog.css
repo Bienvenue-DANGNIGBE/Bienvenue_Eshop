@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: wr;
+    src: url("police/WrathStyles.ttf");
+}
+
+@font-face {
+    font-family: br;
+    src: url("police/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf");
+}
+
+#img_debut {
+    background-image: url("img/ggg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+#img_debut .contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(24, 27, 27, 0.5);
+    text-align: center;
+}
+
+#img_debut .contain h1 {
+    font-size: 50px;
+    font-family: br;
+    color: rgb(238, 238, 238);
+    letter-spacing: 3px;
+}
+
+#img_debut .contain h2 {
+    font-family: wr;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+@media all and (max-width:800px) {
+    #img_debut {
+        width: 100%;
+        height: 210px;
+        margin-bottom: 40px;
+    }
+    #img_debut .contain h1 {
+        font-size: 40px;
+        font-family: br;
+        color: rgb(238, 238, 238);
+        letter-spacing: 3px;
+    }
+    #img_debut .contain h2 {
+        font-family: wr;
+        letter-spacing: 2px;
+        font-size: 25px;
+    }
+}
